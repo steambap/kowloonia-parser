@@ -1,0 +1,14 @@
+﻿[CONFIG]0
+ Sound=1
+ Battle=1
+ Drama=1
+ AutoSave=1
+ Corp=1
+ Stretch=0
+ Campaign=0
+ Host=kowloonia.com
+ TextSpeed=1000
+ FormLeft=8
+ FormTop=9
+ FormMaximum=0
+[/CONFIG]
