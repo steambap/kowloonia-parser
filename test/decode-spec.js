@@ -1,13 +1,13 @@
 'use strict';
 const assert = require('assert');
 const fs = require('fs');
-const parse = require('../lib/parser.js');
+const decode = require('../lib/decode.js').decode;
 
-describe('parse', () => {
-	it('config', () => {
+describe('decode func', () => {
+	it('decode a simple config file', () => {
 		const file = fs.readFileSync('test/config.txt', 'utf8');
 
-		const result = parse(file);
+		const result = decode(file);
 
 		assert(result);
 	});
