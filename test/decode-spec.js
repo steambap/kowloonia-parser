@@ -10,5 +10,15 @@ describe('decode func', () => {
 		const result = decode(file);
 
 		assert(result);
+
+		const configSec = result[0];
+
+		assert(configSec.order === 0);
+
+		const map = configSec.dictionary;
+
+		assert(map.get('Sound'), '1');
+		assert(map.get('Battle'), '1');
+		assert(map.get('Host'), 'kowloonia.com');
 	});
 });
