@@ -2,10 +2,11 @@
   "name": "kowloonia-parser",
   "version": "1.0.0",
   "description": "民國無雙劇本/存檔文件分析工具",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
-    "flow": "flow check"
+    "flow": "flow check",
+    "build": "cross-env NODE_ENV=production browserify index.js -t babelify --outfile dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,9 @@
   },
   "keywords": [
     "kowloonia"
+  ],
+  "files": [
+    "dist/*.js"
   ],
   "author": "Weilin Shi <934587911@qq.com>",
   "license": "MIT",
@@ -22,7 +26,11 @@
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
     "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-babili": "0.0.5",
     "babel-register": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "cross-env": "^3.1.3",
     "flow-bin": "^0.34.0",
     "mocha": "^3.1.2"
   }

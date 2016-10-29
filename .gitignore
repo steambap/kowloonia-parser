@@ -1,3 +1,4 @@
+dist/*.js
 # Logs
 logs
 *.log
