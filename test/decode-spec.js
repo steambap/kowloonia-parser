@@ -21,4 +21,10 @@ describe('decode func', () => {
 		assert(map.get('Battle'), '1');
 		assert(map.get('Host'), 'kowloonia.com');
 	});
+
+	it('decode a huge default file', () => {
+		const file = fs.readFileSync('test/config.txt', 'utf8');
+
+		assert(decode(file));
+	});
 });
