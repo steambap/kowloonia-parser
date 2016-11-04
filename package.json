@@ -1,12 +1,12 @@
 {
   "name": "kowloonia-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "民國無雙劇本/存檔文件分析工具",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "flow": "flow check",
-    "build": "cross-env NODE_ENV=production browserify index.js -t babelify --outfile dist/bundle.js"
+    "build": "cross-env NODE_ENV=production browserify index.js -t babelify -s kowloonia --outfile dist/bundle.js"
   },
   "repository": {
     "type": "git",
