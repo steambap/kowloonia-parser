@@ -9,7 +9,7 @@ const is = assert.equal;
 describe('encode func', () => {
 	it('encode parse result', () => {
 		// it is a utf8 bom file actually
-		const file = fs.readFileSync('test/config.txt', 'utf8').slice(1);
+		const file = fs.readFileSync('test/config.txt', 'utf8');
 
 		const result = decode(file);
 
@@ -19,5 +19,16 @@ describe('encode func', () => {
 		file.split(/[\r\n]+/g).forEach((line, i) => {
 			is(line.trim(), newFileLines[i].trim(), `line: ${i} error`);
 		});
+	});
+
+	it('encode duplicated keys', () => {
+		const file = fs.readFileSync('test/slink.txt', 'utf8');
+
+		const result = decode(file);
+
+		const newFileContent = encode(result);
+		const newFileLines = newFileContent.split(/[\r\n]+/g);
+
+		is(newFileLines.length, 27);
 	});
 });

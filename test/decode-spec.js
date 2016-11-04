@@ -3,6 +3,8 @@ const assert = require('assert');
 const fs = require('fs');
 const decode = require('../lib/decode.js').decode;
 
+const is = assert.equal;
+
 describe('decode func', () => {
 	it('decode a simple config file', () => {
 		const file = fs.readFileSync('test/config.txt', 'utf8');
@@ -26,5 +28,16 @@ describe('decode func', () => {
 		const file = fs.readFileSync('test/config.txt', 'utf8');
 
 		assert(decode(file));
+	});
+
+	it('handles duplicated prop nicely', () => {
+		const file = fs.readFileSync('test/slink.txt', 'utf8');
+
+		const result = decode(file);
+		const citySec = result[0];
+		const map = citySec.dictionary;
+
+		is(map.size, 22);
+		is(map.get('SLink').length, 3);
 	});
 });

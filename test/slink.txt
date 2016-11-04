@@ -1,0 +1,26 @@
+﻿[CITY]0
+ Name=遼東郡襄平
+ Graph=Pass1
+ PosX=3178
+ PosY=1034
+ Faction=塞外民族
+ Owner=東胡
+ Index=0
+ Delay=0
+ SP=2
+ TP=1
+ PP=0
+ NavyPt=0
+ Size=0
+ Police=68
+ Terrain=Wild forest
+ Resource0=0
+ Resource1=0
+ Resource2=0
+ Resource3=0
+ Resource4=0
+ Resource5=0
+ SLink=遼西郡陽樂
+ SLink=王險城
+ SLink=東胡
+[/CITY]

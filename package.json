@@ -1,6 +1,6 @@
 {
   "name": "kowloonia-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "民國無雙劇本/存檔文件分析工具",
   "main": "dist/bundle.js",
   "scripts": {
