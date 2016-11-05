@@ -1,11 +1,12 @@
 {
   "name": "kowloonia-parser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "民國無雙劇本/存檔文件分析工具",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "flow": "flow check",
+    "lint": "xo",
     "build": "cross-env NODE_ENV=production browserify index.js -t babelify -s kowloonia --outfile dist/bundle.js"
   },
   "repository": {
@@ -25,13 +26,25 @@
   },
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
+    "babel-eslint": "^7.1.0",
     "babel-plugin-transform-flow-strip-types": "^6.18.0",
     "babel-preset-babili": "0.0.8",
     "babel-register": "^6.18.0",
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "cross-env": "^3.1.3",
+    "eslint-plugin-flowtype": "^2.25.0",
     "flow-bin": "^0.34.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "envs": [
+      "mocha"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ]
   }
 }
