@@ -3,7 +3,8 @@
 	"plugins": ["transform-flow-strip-types"],
 	"env": {
 		"production": {
-			"presets": ["babili"]
+			"presets": ["babili"],
+			"comments": false
 		}
 	}
 }
