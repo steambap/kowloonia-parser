@@ -26,17 +26,17 @@
   },
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
-    "babel-eslint": "^7.1.0",
-    "babel-plugin-transform-flow-strip-types": "^6.18.0",
-    "babel-preset-babili": "^0.0.9",
-    "babel-register": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-babili": "^0.0.10",
+    "babel-register": "^6.22.0",
     "babelify": "^7.3.0",
-    "browserify": "^13.1.1",
-    "cross-env": "^3.1.3",
-    "eslint-plugin-flowtype": "^2.25.0",
-    "flow-bin": "^0.37.0",
+    "browserify": "^13.3.0",
+    "cross-env": "^3.1.4",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "flow-bin": "^0.38.0",
     "mocha": "^3.2.0",
-    "xo": "^0.17.0"
+    "xo": "^0.17.1"
   },
   "xo": {
     "envs": [
