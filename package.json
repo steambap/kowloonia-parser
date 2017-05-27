@@ -25,17 +25,16 @@
   },
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
-    "babel-preset-babili": "^0.0.12",
+    "babel-preset-babili": "^0.1.2",
     "babelify": "^7.3.0",
     "browserify": "^14.3.0",
-    "cross-env": "^4.0.0",
-    "mocha": "^3.3.0",
-    "xo": "^0.18.1"
+    "cross-env": "^5.0.0",
+    "mocha": "^3.4.2",
+    "xo": "^0.18.2"
   },
   "xo": {
     "envs": [
       "mocha"
     ]
-  },
-  "dependencies": {}
+  }
 }
