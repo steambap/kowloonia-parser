@@ -514,9 +514,9 @@ browserify-zlib@~0.1.2:
   dependencies:
     pako "~0.2.0"
 
-browserify@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/browserify/-/browserify-14.3.0.tgz#fd003a2386ac1aec127f097885a3cc6373b745c4"
+browserify@^14.4.0:
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/browserify/-/browserify-14.4.0.tgz#089a3463af58d0e48d8cd4070b3f74654d5abca9"
   dependencies:
     JSONStream "^1.0.3"
     assert "^1.4.0"
@@ -555,7 +555,7 @@ browserify@^14.3.0:
     shell-quote "^1.6.1"
     stream-browserify "^2.0.0"
     stream-http "^2.0.0"
-    string_decoder "~0.10.0"
+    string_decoder "~1.0.0"
     subarg "^1.0.0"
     syntax-error "^1.1.1"
     through2 "^2.0.0"
@@ -772,9 +772,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
     create-hash "^1.1.0"
     inherits "^2.0.1"
 
-cross-env@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.0.0.tgz#565ccae4d09676441a5087f406fe7661a29c931b"
+cross-env@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.0.1.tgz#ff4e72ea43b47da2486b43a7f2043b2609e44913"
   dependencies:
     cross-spawn "^5.1.0"
     is-windows "^1.0.0"
@@ -836,13 +836,13 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@2.2.0, debug@^2.1.1, debug@^2.2.0:
+debug@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
     ms "0.7.1"
 
-debug@2.6.0:
+debug@2.6.0, debug@^2.1.1, debug@^2.2.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
   dependencies:
@@ -2436,7 +2436,7 @@ rx-lite@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-3.1.2.tgz#19ce502ca572665f3b647b10939f97fd1615f102"
 
-safe-buffer@^5.0.1:
+safe-buffer@^5.0.1, safe-buffer@~5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
 
@@ -2586,9 +2586,15 @@ string-width@^2.0.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^3.0.0"
 
-string_decoder@~0.10.0, string_decoder@~0.10.x:
+string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+string_decoder@~1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.2.tgz#b29e1f4e1125fa97a10382b8a533737b7491e179"
+  dependencies:
+    safe-buffer "~5.0.1"
 
 strip-ansi@^3.0.0:
   version "3.0.1"
