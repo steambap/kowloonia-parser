@@ -3,7 +3,7 @@
 	"plugins": [],
 	"env": {
 		"production": {
-			"presets": ["babili"],
+			"presets": ["minify"],
 			"comments": false
 		}
 	}

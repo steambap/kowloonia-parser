@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
-    "babel-preset-babili": "^0.1.3",
+    "babel-minify": "^0.2.0",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
     "cross-env": "^5.0.1",
