@@ -2,11 +2,10 @@
   "name": "kowloonia-parser",
   "version": "1.0.7",
   "description": "民國無雙劇本/存檔文件分析工具",
-  "main": "dist/bundle.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "xo",
-    "build": "cross-env NODE_ENV=production browserify index.js -t babelify -s kowloonia --outfile dist/bundle.js"
+    "lint": "xo"
   },
   "repository": {
     "type": "git",
@@ -25,10 +24,6 @@
   },
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
-    "babel-minify": "^0.2.0",
-    "babelify": "^7.3.0",
-    "browserify": "^14.4.0",
-    "cross-env": "^5.0.1",
     "mocha": "^3.4.2",
     "xo": "^0.18.2"
   },
