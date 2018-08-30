@@ -1,16 +1,17 @@
-'use strict';
+import { Section, SectionBody } from './definition';
+
 class Parser {
-	/**
-	 * @param {string} input
-	 */
-	constructor(input) {
+	lines: string[];
+	line: string;
+	inSection: boolean;
+	constructor(input: string) {
 		this.lines = input.slice(1).split(/[\r\n]+/g);
 		this.line = '';
 		this.inSection = false;
 	}
 
 	parse() {
-		const out = [];
+		const out: Section[] = [];
 		const len = this.lines.length;
 
 		for (let i = 0; i < len; i++) {
@@ -26,9 +27,9 @@ class Parser {
 		return out;
 	}
 
-	parseLine(node) {
+	parseLine(node: Section[]) {
 		if (this.inSection) {
-			const sectionBody = node[node.length - 1].dictionary;
+			const sectionBody: SectionBody = node[node.length - 1].dictionary;
 
 			return this.parseSection(sectionBody);
 		}
@@ -37,7 +38,7 @@ class Parser {
 		node.push(sectionHeader);
 	}
 
-	parseSecHeader() {
+	parseSecHeader(): Section {
 		const match = /^\[([^\]]*)](\d*)?$/.exec(this.line);
 		if (!match) {
 			throw new SyntaxError('no header');
@@ -58,7 +59,7 @@ class Parser {
 		this.inSection = false;
 	}
 
-	parseSection(sectionBody) {
+	parseSection(sectionBody: SectionBody) {
 		const eqPosition = this.line.indexOf('=');
 		if (eqPosition === -1) {
 			return this.parseSecClosing();
@@ -69,12 +70,12 @@ class Parser {
 
 		// key 可以是重複的，比如slink
 		if (sectionBody.has(key)) {
-			const prevVal = sectionBody.get(key);
-			sectionBody.set(key, [].concat(prevVal, value));
+			const prevVal = <string | string[]>(sectionBody.get(key));
+			sectionBody.set(key, ([] as string[]).concat(prevVal, value));
 		} else {
 			sectionBody.set(key, value);
 		}
 	}
 }
 
-module.exports = Parser;
+export default Parser;

@@ -1,9 +1,7 @@
-'use strict';
-/**
- * @param {Array.<any>} node
- */
-function encode(node) {
-	const lines = [];
+import { Section } from './definition';
+
+function encode(node: Section[]) {
+	const lines: string[] = [];
 	node.forEach(section => {
 		const sectionNum = Number.isFinite(section.order) ?
 			String(section.order) : '';
@@ -27,4 +25,4 @@ function encode(node) {
 	return lines.join('\n');
 }
 
-module.exports = encode;
+export default encode;

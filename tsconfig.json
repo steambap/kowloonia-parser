@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "include": [
+    "index.ts"
+  ]
+}
