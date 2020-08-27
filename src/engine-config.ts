@@ -1,5 +1,4 @@
-import { EngineConfig, Section } from "./definition";
-import encode from "./encode";
+import { EngineConfig, Section, SectionBody } from "./definition";
 
 function newEngineConfig(): EngineConfig {
 	return {
@@ -50,6 +49,28 @@ function decode(section: Section): EngineConfig {
 		formLeft,
 		formTop,
 		formMaximum,
+	};
+}
+
+function encode(config: EngineConfig): Section {
+	const dictionary: SectionBody = new Map();
+	dictionary.set("Sound", config.sound.toString());
+	dictionary.set("Battle", config.battle.toString());
+	dictionary.set("Drama", config.drama ? "1" : "0");
+	dictionary.set("AutoSave", config.autosave ? "1" : "0");
+	dictionary.set("Corp", config.corp);
+	dictionary.set("Stretch", config.stretch ? "1" : "0");
+	dictionary.set("Campaign", config.campaign.toString());
+	dictionary.set("Host", config.host);
+	dictionary.set("TextSpeed", config.textSpeed.toString());
+	dictionary.set("FormLeft", config.formLeft.toString());
+	dictionary.set("FormTop", config.formTop.toString());
+	dictionary.set("FormMaximum", config.formMaximum.toString());
+
+	return {
+		name: "CONFIG",
+		order: 0,
+		dictionary,
 	};
 }
 
