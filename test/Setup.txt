@@ -1,0 +1,3017 @@
+﻿[GRAND]0
+ MapWidth=2400
+ MapHeight=1800
+ StartYear=14
+ StartMonth=0
+ UnitBuff0=0
+ UnitBuff1=1
+ UnitBuff2=3
+ UnitBuff3=3
+ UnitBuff4=3
+ MAXUnitBuff0=0
+ MAXUnitBuff1=100
+ MAXUnitBuff2=100
+ MAXUnitBuff3=100
+ MAXUnitBuff4=100
+ UnitAid0=-1
+ UnitAid1=1
+ UnitAid2=-1
+ UnitAid3=2
+ UnitAid4=4
+ ApplicationTitle=民國無雙
+ YearPrefix=民國
+ BattleBGM=BGM2.mp3
+ DefaultBGM=BGM1.mp3
+ AIBGM=BGM2.mp3
+ SPPhrase=補給
+ TPPhrase=資金
+ IPPhrase=工業
+ APPhrase=行動力
+ PPPhrase=政治力
+ TP_Limit=9999
+ SP_Limit=9999
+ REFORM_Limit=999
+ UNITLVCOVER_Limit=6
+ MaxAP=100
+ NavyLength=5
+ MPRecoverySpeed=10
+ RPGLvName=名聲等級
+ RPGGemPerLv=2
+ RandomNameClear=1
+ RandomName1=陳
+ RandomName1=李
+ RandomName1=張
+ RandomName1=黃
+ RandomName1=何
+ RandomName1=史
+ RandomName1=廖
+ RandomName1=林
+ RandomName1=白
+ RandomName1=蔡
+ RandomName1=曾
+ RandomName1=楊
+ RandomName1=蕭
+ RandomName1=馬
+ RandomName1=杜
+ RandomName1=鄭
+ RandomName1=龍
+ RandomName1=陸
+ RandomName1=路
+ RandomName1=范
+ RandomName1=衛
+ RandomName1=魏
+ RandomName1=盧
+ RandomName1=毛
+ RandomName1=蔣
+ RandomName1=周
+ RandomName1=司馬
+ RandomName1=朱
+ RandomName1=孫
+ RandomName1=邱
+ RandomName1=彭
+ RandomName1=韓
+ RandomName1=賀
+ RandomName1=謝
+ RandomName1=聶
+ RandomName1=常
+ RandomName1=羅
+ RandomName1=劉
+ RandomName1=胡
+ RandomName1=嚴
+ RandomName1=閻
+ RandomName1=褚
+ RandomName1=馮
+ RandomName1=吳
+ RandomName1=鄧
+ RandomName1=譚
+ RandomName1=袁
+ RandomName1=趙
+ RandomName1=呂
+ RandomName1=楚
+ RandomName1=高
+ RandomName1=錢
+ RandomName1=方
+ RandomName1=上官
+ RandomName1=徐
+ RandomName1=許
+ RandomName1=余
+ RandomName1=齊
+ RandomName1=龐
+ RandomName1=熊
+ RandomName1=王
+ RandomName1=韋
+ RandomName1=戴
+ RandomName1=汪
+ RandomName1=邵
+ RandomName1=石
+ RandomName1=蘇
+ RandomName1=唐
+ RandomName1=田
+ RandomName1=丁
+ RandomName1=孟
+ RandomName1=鄒
+ RandomName1=段
+ RandomName1=董
+ RandomName1=萬
+ RandomName1=馬
+ RandomName1=葉
+ RandomName1=俞
+ RandomName1=尉遲
+ RandomName1=紀
+ RandomName1=歐陽
+ RandomName1=沈
+ RandomName1=柳
+ RandomName1=洪
+ RandomName1=蕭
+ RandomName1=孔
+ RandomName1=程
+ RandomName1=黎
+ RandomNameClear=2
+ RandomName2=
+ RandomName2=志
+ RandomName2=介
+ RandomName2=鐵
+ RandomName2=自
+ RandomName2=虎
+ RandomName2=治
+ RandomName2=慕
+ RandomName2=誠
+ RandomName2=學
+ RandomName2=榮
+ RandomName2=長
+ RandomName2=凱
+ RandomName2=耀
+ RandomName2=建
+ RandomName2=玉
+ RandomName2=鴻
+ RandomName2=鎮
+ RandomName2=啟
+ RandomName2=成
+ RandomName2=敬
+ RandomName2=樹
+ RandomName2=作
+ RandomName2=光
+ RandomName2=紹
+ RandomName2=一
+ RandomName2=宗
+ RandomName2=百
+ RandomName2=濟
+ RandomName2=繼
+ RandomName2=飛
+ RandomName2=漢
+ RandomName2=震
+ RandomName2=立
+ RandomName2=崇
+ RandomName2=永
+ RandomName2=彥
+ RandomName2=佐
+ RandomName2=振
+ RandomName2=信
+ RandomName2=政
+ RandomName2=之
+ RandomName2=景
+ RandomName2=承
+ RandomName2=清
+ RandomName2=錫
+ RandomName2=復
+ RandomName2=克
+ RandomName2=定
+ RandomName2=家
+ RandomName2=如
+ RandomName2=靖
+ RandomName2=先
+ RandomName2=長
+ RandomName2=思
+ RandomName2=國
+ RandomName2=永
+ RandomName2=天
+ RandomName2=恆
+ RandomName2=恩
+ RandomName2=良
+ RandomName2=雪
+ RandomName2=世
+ RandomName2=登
+ RandomName2=公
+ RandomName2=文
+ RandomName2=峰
+ RandomName2=叔
+ RandomName2=秉
+ RandomName2=景
+ RandomName2=希
+ RandomName2=庭
+ RandomName2=祖
+ RandomName2=新
+ RandomName2=毅
+ RandomName2=若
+ RandomName2=仲
+ RandomName2=伯
+ RandomName2=維
+ RandomName2=致
+ RandomName2=正
+ RandomName2=從
+ RandomName2=寄
+ RandomName2=汝
+ RandomName2=季
+ RandomName2=傳
+ RandomName2=以
+ RandomName2=必
+ RandomName2=則
+ RandomName2=齡
+ RandomName2=和
+ RandomName2=士
+ RandomName2=寶
+ RandomName2=廷
+ RandomName2=昭
+ RandomName2=其
+ RandomName2=步
+ RandomName2=近
+ RandomName2=至
+ RandomName2=亞
+ RandomName2=子
+ RandomName2=人
+ RandomName2=星
+ RandomNameClear=3
+ RandomName3=忠
+ RandomName3=雄
+ RandomName3=軍
+ RandomName3=偉
+ RandomName3=馳
+ RandomName3=威
+ RandomName3=雲
+ RandomName3=中
+ RandomName3=烈
+ RandomName3=臣
+ RandomName3=寒
+ RandomName3=遠
+ RandomName3=申
+ RandomName3=春
+ RandomName3=鳳
+ RandomName3=達
+ RandomName3=聲
+ RandomName3=武
+ RandomName3=柏
+ RandomName3=威
+ RandomName3=德
+ RandomName3=英
+ RandomName3=勝
+ RandomName3=傑
+ RandomName3=賓
+ RandomName3=岳
+ RandomName3=祥
+ RandomName3=華
+ RandomName3=良
+ RandomName3=元
+ RandomName3=鈞
+ RandomName3=章
+ RandomName3=偉
+ RandomName3=城
+ RandomName3=義
+ RandomName3=銘
+ RandomName3=昌
+ RandomName3=勛
+ RandomName3=璋
+ RandomName3=翔
+ RandomName3=松
+ RandomName3=才
+ RandomName3=同
+ RandomName3=洲
+ RandomName3=覺
+ RandomName3=堂
+ RandomName3=興
+ RandomName3=亭
+ RandomName3=久
+ RandomName3=山
+ RandomName3=生
+ RandomName3=培
+ RandomName3=安
+[/GRAND]
+[UNITCLASS]0
+ Name=民兵
+ AnimePath=unit-000
+ WS=3
+ BS=2
+ DEF=0
+ I=3
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=3
+ LevelHP=30
+ LevelSP=5
+ HP=100
+ Melee=0
+ Range=0
+ UnitCost=2
+ LevelCost=1
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Irregular
+ Morale=2
+ Special=-1
+ SPCost=1
+ Upgrade1=44
+ Upgrade2=43
+ Upgrade3=1
+[/UNITCLASS]
+[UNITCLASS]1
+ Name=步兵
+ AnimePath=unit-006
+ WS=3
+ BS=3
+ DEF=5
+ I=3
+ IconIndex=1
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=10
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=3
+ Special=-1
+ SPCost=2
+ Upgrade1=41
+ Upgrade2=42
+ Upgrade3=45
+[/UNITCLASS]
+[UNITCLASS]2
+ Name=法式步兵
+ AnimePath=unit-031
+ WS=4
+ BS=4
+ DEF=15
+ I=3
+ IconIndex=2
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=35
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=4
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]3
+ Name=蘇式步兵
+ AnimePath=unit-041
+ WS=4
+ BS=4
+ DEF=10
+ I=3
+ IconIndex=3
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=30
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=30
+ LevelCost=4
+ UnitSkill=TundraExpert
+ UnitSkillLevel=1
+ UnitType=Irregular
+ Morale=3
+ Special=-1
+ SPCost=3
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]4
+ Name=砲兵
+ AnimePath=unit-003
+ WS=2
+ BS=3
+ DEF=0
+ I=2
+ IconIndex=4
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=4
+ LevelHP=10
+ LevelSP=3
+ HP=80
+ Melee=-1
+ Range=2
+ UnitCost=30
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=2
+ Special=-1
+ SPCost=4
+ Upgrade1=13
+ Upgrade2=29
+ Upgrade3=26
+[/UNITCLASS]
+[UNITCLASS]5
+ Name=英式步兵
+ AnimePath=unit-021
+ WS=3
+ BS=4
+ DEF=15
+ I=4
+ IconIndex=5
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=40
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=4
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]6
+ Name=騎兵
+ AnimePath=unit-002
+ WS=4
+ BS=2
+ DEF=0
+ I=4
+ IconIndex=6
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=3
+ LevelHP=10
+ LevelSP=4
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=15
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Cavalry
+ Morale=3
+ Special=-1
+ SPCost=2
+ Upgrade1=32
+ Upgrade2=30
+ Upgrade3=31
+[/UNITCLASS]
+[UNITCLASS]7
+ Name=美式砲兵
+ AnimePath=unit-053
+ WS=2
+ BS=5
+ DEF=0
+ I=2
+ IconIndex=8
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=3
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=75
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=3
+ Special=-1
+ SPCost=5
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]8
+ Name=日式步兵
+ AnimePath=unit-011
+ WS=4
+ BS=3
+ DEF=15
+ I=4
+ IconIndex=9
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=30
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=5
+ Special=-1
+ SPCost=3
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]9
+ Name=日式裝甲
+ AnimePath=unit-014
+ WS=5
+ BS=5
+ DEF=35
+ I=5
+ IconIndex=10
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=2
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=75
+ LevelCost=6
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=6
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]10
+ Name=德式步兵
+ AnimePath=unit-061
+ WS=4
+ BS=4
+ DEF=15
+ I=5
+ IconIndex=11
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=45
+ LevelCost=5
+ UnitSkill=Rifleman
+ UnitSkillLevel=1
+ UnitType=Infactry
+ Morale=4
+ Special=-1
+ SPCost=5
+ Upgrade1=20
+ Upgrade2=39
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]11
+ Name=美式步兵
+ AnimePath=unit-051
+ WS=3
+ BS=5
+ DEF=15
+ I=4
+ IconIndex=12
+ Huge=0
+ LevelWS=3
+ LevelBS=2
+ LevelI=3
+ LevelHP=20
+ LevelSP=2
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=75
+ LevelCost=5
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=4
+ Special=-1
+ SPCost=5
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]12
+ Name=鐵甲車
+ AnimePath=big-unit-000
+ WS=5
+ BS=4
+ DEF=55
+ I=4
+ IconIndex=41
+ Huge=1
+ LevelWS=3
+ LevelBS=2
+ LevelI=4
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=3
+ UnitCost=100
+ LevelCost=5
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=4
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]13
+ Name=日式砲兵
+ AnimePath=unit-013
+ WS=2
+ BS=3
+ DEF=0
+ I=3
+ IconIndex=14
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=3
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=45
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=4
+ Special=-1
+ SPCost=4
+ Upgrade1=12
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]14
+ Name=義式步兵
+ AnimePath=unit-076
+ WS=3
+ BS=4
+ DEF=15
+ I=3
+ IconIndex=7
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=30
+ LevelCost=3
+ UnitSkill=HillExpert
+ UnitSkillLevel=1
+ UnitType=Infactry
+ Morale=4
+ Special=-1
+ SPCost=3
+ Upgrade1=21
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]15
+ Name=法式裝甲
+ AnimePath=unit-034
+ WS=5
+ BS=5
+ DEF=85
+ I=4
+ IconIndex=18
+ Huge=0
+ LevelWS=2
+ LevelBS=2
+ LevelI=3
+ LevelHP=10
+ LevelSP=1
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=120
+ LevelCost=100
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=5
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]16
+ Name=英式裝甲
+ AnimePath=unit-029
+ WS=5
+ BS=5
+ DEF=45
+ I=5
+ IconIndex=19
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=90
+ LevelCost=6
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=5
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]17
+ Name=美式裝甲
+ AnimePath=unit-054
+ WS=5
+ BS=5
+ DEF=65
+ I=5
+ IconIndex=20
+ Huge=0
+ LevelWS=2
+ LevelBS=2
+ LevelI=2
+ LevelHP=10
+ LevelSP=1
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=125
+ LevelCost=7
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=5
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]18
+ Name=蘇式裝甲
+ AnimePath=unit-044
+ WS=5
+ BS=5
+ DEF=55
+ I=5
+ IconIndex=21
+ Huge=0
+ LevelWS=2
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=1
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=105
+ LevelCost=7
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=4
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]19
+ Name=黑色死神
+ AnimePath=unit-202
+ WS=1
+ BS=1
+ DEF=20
+ I=1
+ IconIndex=23
+ Huge=0
+ LevelWS=1
+ LevelBS=2
+ LevelI=2
+ LevelHP=30
+ LevelSP=3
+ HP=10
+ Melee=2
+ Range=0
+ UnitCost=15
+ LevelCost=100
+ UnitSkill=Berserker
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=3
+ Special=-1
+ SPCost=2
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]20
+ Name=德式裝甲
+ AnimePath=unit-064
+ WS=5
+ BS=5
+ DEF=75
+ I=5
+ IconIndex=22
+ Huge=0
+ LevelWS=2
+ LevelBS=2
+ LevelI=2
+ LevelHP=10
+ LevelSP=1
+ HP=100
+ Melee=2
+ Range=1
+ UnitCost=150
+ LevelCost=7
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=6
+ Special=-1
+ SPCost=7
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]21
+ Name=義式裝甲
+ AnimePath=unit-074
+ WS=5
+ BS=5
+ DEF=55
+ I=5
+ IconIndex=33
+ Huge=0
+ LevelWS=2
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=1
+ Range=1
+ UnitCost=105
+ LevelCost=7
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=5
+ Special=-1
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]22
+ Name=土坦克
+ AnimePath=unit-094
+ WS=3
+ BS=1
+ DEF=30
+ I=1
+ IconIndex=53
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=4
+ LevelHP=20
+ LevelSP=5
+ HP=100
+ Melee=0
+ Range=0
+ UnitCost=5
+ LevelCost=100
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Armor
+ Morale=3
+ Special=-1
+ SPCost=1
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]23
+ Name=魔法少女
+ AnimePath=unit-201
+ WS=1
+ BS=1
+ DEF=20
+ I=1
+ IconIndex=24
+ Huge=0
+ LevelWS=2
+ LevelBS=2
+ LevelI=1
+ LevelHP=30
+ LevelSP=3
+ HP=10
+ Melee=1
+ Range=1
+ UnitCost=12
+ LevelCost=100
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=3
+ Special=-1
+ SPCost=1
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]24
+ Name=夜天之王
+ AnimePath=unit-203
+ WS=1
+ BS=1
+ DEF=20
+ I=1
+ IconIndex=25
+ Huge=0
+ LevelWS=2
+ LevelBS=1
+ LevelI=2
+ LevelHP=30
+ LevelSP=3
+ HP=10
+ Melee=0
+ Range=2
+ UnitCost=18
+ LevelCost=100
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=3
+ Special=-1
+ SPCost=3
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]25
+ Name=海軍陸戰隊
+ AnimePath=unit-111
+ WS=4
+ BS=3
+ DEF=0
+ I=4
+ IconIndex=25
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=0
+ Range=0
+ UnitCost=50
+ LevelCost=100
+ UnitSkill=Sapper
+ UnitSkillLevel=1
+ UnitType=Infactry
+ Morale=5
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]26
+ Name=法式砲兵
+ AnimePath=unit-033
+ WS=2
+ BS=5
+ DEF=0
+ I=2
+ IconIndex=34
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=4
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=60
+ LevelCost=5
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=3
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]27
+ Name=蘇式砲兵
+ AnimePath=unit-043
+ WS=2
+ BS=4
+ DEF=0
+ I=2
+ IconIndex=37
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=4
+ LevelHP=20
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=45
+ LevelCost=4
+ UnitSkill=TundraExpert
+ UnitSkillLevel=1
+ UnitType=Artillery
+ Morale=3
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]28
+ Name=飛雷砲
+ AnimePath=unit-093
+ WS=2
+ BS=4
+ DEF=0
+ I=2
+ IconIndex=54
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=4
+ LevelHP=20
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=3
+ UnitCost=30
+ LevelCost=100
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=2
+ Special=-1
+ SPCost=3
+ Upgrade1=27
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]29
+ Name=英式砲兵
+ AnimePath=unit-023
+ WS=2
+ BS=4
+ DEF=0
+ I=3
+ IconIndex=35
+ Huge=0
+ LevelWS=4
+ LevelBS=2
+ LevelI=3
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=45
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Artillery
+ Morale=3
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]30
+ Name=日式騎兵
+ AnimePath=unit-012
+ WS=4
+ BS=3
+ DEF=5
+ I=5
+ IconIndex=49
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=3
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=30
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Cavalry
+ Morale=5
+ Special=-1
+ SPCost=3
+ Upgrade1=35
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]31
+ Name=蘇式騎兵
+ AnimePath=unit-042
+ WS=4
+ BS=3
+ DEF=5
+ I=4
+ IconIndex=51
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=3
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=30
+ LevelCost=5
+ UnitSkill=TundraExpert
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=3
+ Special=-1
+ SPCost=4
+ Upgrade1=36
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]32
+ Name=高原騎兵
+ AnimePath=unit-082
+ WS=4
+ BS=2
+ DEF=0
+ I=5
+ IconIndex=55
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=3
+ LevelHP=10
+ LevelSP=4
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=20
+ LevelCost=3
+ UnitSkill=HighlandExpert
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=4
+ Special=-1
+ SPCost=3
+ Upgrade1=33
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]33
+ Name=大漠騎兵
+ AnimePath=unit-087
+ WS=5
+ BS=2
+ DEF=0
+ I=5
+ IconIndex=56
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=3
+ LevelHP=10
+ LevelSP=4
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=25
+ LevelCost=4
+ UnitSkill=DesertExpert
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=4
+ Special=-1
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]34
+ Name=象兵
+ AnimePath=unit-122
+ WS=5
+ BS=2
+ DEF=0
+ I=3
+ IconIndex=8
+ Huge=0
+ LevelWS=3
+ LevelBS=4
+ LevelI=3
+ LevelHP=10
+ LevelSP=4
+ HP=100
+ Melee=1
+ Range=0
+ UnitCost=30
+ LevelCost=100
+ UnitSkill=Chaos
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=3
+ Special=0
+ SPCost=4
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]35
+ Name=日式裝騎
+ AnimePath=unit-017
+ WS=4
+ BS=4
+ DEF=20
+ I=5
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=3
+ HP=100
+ Melee=3
+ Range=1
+ UnitCost=45
+ LevelCost=5
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Cavalry
+ Morale=5
+ Special=0
+ SPCost=5
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]36
+ Name=蘇式裝騎
+ AnimePath=unit-047
+ WS=4
+ BS=4
+ DEF=30
+ I=4
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=2
+ HP=100
+ Melee=3
+ Range=1
+ UnitCost=45
+ LevelCost=5
+ UnitSkill=TundraExpert
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=3
+ Special=0
+ SPCost=5
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]37
+ Name=德式巨砲
+ AnimePath=big-unit-001
+ WS=4
+ BS=6
+ DEF=65
+ I=1
+ IconIndex=0
+ Huge=1
+ LevelWS=3
+ LevelBS=1
+ LevelI=5
+ LevelHP=10
+ LevelSP=2
+ HP=100
+ Melee=-1
+ Range=2
+ UnitCost=200
+ LevelCost=100
+ UnitSkill=Shell
+ UnitSkillLevel=1
+ UnitType=Artillery
+ Morale=2
+ Special=0
+ SPCost=7
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]38
+ Name=德式巨坦
+ AnimePath=big-unit-002
+ WS=6
+ BS=6
+ DEF=95
+ I=3
+ IconIndex=0
+ Huge=1
+ LevelWS=1
+ LevelBS=2
+ LevelI=3
+ LevelHP=10
+ LevelSP=1
+ HP=100
+ Melee=1
+ Range=3
+ UnitCost=250
+ LevelCost=100
+ UnitSkill=Shield
+ UnitSkillLevel=1
+ UnitType=Armor
+ Morale=7
+ Special=0
+ SPCost=8
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]39
+ Name=德式騎兵
+ AnimePath=unit-062
+ WS=4
+ BS=4
+ DEF=10
+ I=5
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=3
+ HP=100
+ Melee=3
+ Range=0
+ UnitCost=50
+ LevelCost=4
+ UnitSkill=Knight
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=4
+ Special=0
+ SPCost=5
+ Upgrade1=40
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]40
+ Name=德式裝騎
+ AnimePath=unit-067
+ WS=5
+ BS=5
+ DEF=35
+ I=5
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=10
+ LevelSP=3
+ HP=100
+ Melee=3
+ Range=1
+ UnitCost=75
+ LevelCost=5
+ UnitSkill=Knight
+ UnitSkillLevel=1
+ UnitType=Cavalry
+ Morale=5
+ Special=0
+ SPCost=6
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]41
+ Name=北洋步兵
+ AnimePath=unit-136
+ WS=3
+ BS=4
+ DEF=10
+ I=3
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=15
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=3
+ Special=0
+ SPCost=3
+ Upgrade1=5
+ Upgrade2=14
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]42
+ Name=新軍步兵
+ AnimePath=unit-131
+ WS=3
+ BS=3
+ DEF=10
+ I=4
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=15
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=3
+ Special=0
+ SPCost=3
+ Upgrade1=2
+ Upgrade2=5
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]43
+ Name=西北步兵
+ AnimePath=unit-091
+ WS=4
+ BS=2
+ DEF=5
+ I=3
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=10
+ LevelCost=4
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Irregular
+ Morale=3
+ Special=0
+ SPCost=2
+ Upgrade1=8
+ Upgrade2=3
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]44
+ Name=紅軍步兵
+ AnimePath=unit-045
+ WS=3
+ BS=3
+ DEF=10
+ I=3
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=30
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=10
+ LevelCost=4
+ UnitSkill=TundraExpert
+ UnitSkillLevel=1
+ UnitType=Irregular
+ Morale=3
+ Special=0
+ SPCost=2
+ Upgrade1=3
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]45
+ Name=黃埔步兵
+ AnimePath=unit-001
+ WS=3
+ BS=3
+ DEF=10
+ I=3
+ IconIndex=0
+ Huge=0
+ LevelWS=3
+ LevelBS=3
+ LevelI=3
+ LevelHP=20
+ LevelSP=4
+ HP=100
+ Melee=0
+ Range=1
+ UnitCost=15
+ LevelCost=3
+ UnitSkill=HP+10
+ UnitSkillLevel=0
+ UnitType=Infactry
+ Morale=4
+ Special=0
+ SPCost=3
+ Upgrade1=5
+ Upgrade2=8
+ Upgrade3=-1
+[/UNITCLASS]
+[UNITCLASS]46
+ Name=小米加步槍兵
+ AnimePath=unit-204
+ WS=1
+ BS=1
+ DEF=0
+ I=1
+ IconIndex=0
+ Huge=0
+ LevelWS=2
+ LevelBS=2
+ LevelI=2
+ LevelHP=40
+ LevelSP=4
+ HP=10
+ Melee=0
+ Range=0
+ UnitCost=9
+ LevelCost=100
+ UnitSkill=Rest
+ UnitSkillLevel=0
+ UnitType=Irregular
+ Morale=3
+ Special=0
+ SPCost=1
+ Upgrade1=-1
+ Upgrade2=-1
+ Upgrade3=-1
+[/UNITCLASS]
+[BASICEVENT]103
+ Title=投資
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]104
+ Title=徵收
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]105
+ Title=徵兵
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]106
+ Title=開發
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]107
+ Title=整頓內政
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]109
+ Title=宣戰
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]110
+ Title=建設設施
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]111
+ Title=拆除設施
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]120
+ Title=政治改革
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]121
+ Title=政治進展
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]122
+ Title=完成改革
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]130
+ Title=學生運動
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]140
+ Title=外國援助
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]141
+ Title=列強援助
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]149
+ Title=內閣成員
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]150
+ Title=收編勢力
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]151
+ Title=增進關係
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]152
+ Title=和平談判
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]153
+ Title=結盟
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]159
+ Title=挑釁
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]201
+ Title=建置司令部
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]202
+ Title=遷移司令部
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]203
+ Title=移動
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]399
+ Title=勢力滅亡
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]433
+ Title=大東亞戰爭
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]489
+ Title=撤退
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]498
+ Title=攻陷
+ Picture=0
+[/BASICEVENT]
+[BASICEVENT]499
+ Title=佔領
+ Picture=0
+[/BASICEVENT]
+[TERRAIN]0
+ Name=平原
+ ID=Plain
+ Picture=-1
+ MaxSP=8
+ Police=75
+ Delay=2
+ DR0=-5
+ DR1=-5
+ DR2=10
+ DR3=-5
+ DR4=20
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]1
+ Name=山丘
+ ID=Hill
+ Picture=-1
+ MaxSP=7
+ Police=100
+ Delay=4
+ DR0=-10
+ DR1=-15
+ DR2=-25
+ DR3=-30
+ DR4=-30
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]2
+ Name=叢林
+ ID=Jungle
+ Picture=-1
+ MaxSP=6
+ Police=100
+ Delay=8
+ DR0=-10
+ DR1=-20
+ DR2=-25
+ DR3=-30
+ DR4=-35
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]3
+ Name=高原
+ ID=Highland
+ Picture=-1
+ MaxSP=5
+ Police=100
+ Delay=8
+ DR0=-15
+ DR1=-25
+ DR2=-5
+ DR3=-35
+ DR4=-40
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]4
+ Name=凍原
+ ID=Tundra
+ Picture=-1
+ MaxSP=3
+ Police=100
+ Delay=8
+ DR0=-15
+ DR1=-25
+ DR2=-15
+ DR3=-25
+ DR4=-25
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]5
+ Name=沙漠
+ ID=Desert
+ Picture=-1
+ MaxSP=4
+ Police=100
+ Delay=8
+ DR0=-15
+ DR1=-20
+ DR2=-5
+ DR3=-25
+ DR4=-10
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]6
+ Name=城市
+ ID=Urban
+ Picture=-1
+ MaxSP=10
+ Police=50
+ Delay=2
+ DR0=10
+ DR1=-10
+ DR2=-20
+ DR3=-30
+ DR4=-40
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]7
+ Name=中式城市
+ ID=Terrain07
+ Picture=-1
+ MaxSP=10
+ Police=100
+ Delay=3
+ DR0=0
+ DR1=0
+ DR2=0
+ DR3=0
+ DR4=0
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]8
+ Name=日式城市
+ ID=Terrain08
+ Picture=-1
+ MaxSP=10
+ Police=100
+ Delay=3
+ DR0=0
+ DR1=0
+ DR2=0
+ DR3=0
+ DR4=0
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[TERRAIN]9
+ Name=東南亞城市
+ ID=Terrain09
+ Picture=-1
+ MaxSP=10
+ Police=100
+ Delay=3
+ DR0=0
+ DR1=0
+ DR2=0
+ DR3=0
+ DR4=0
+ DI0=0
+ DI1=0
+ DI2=0
+ DI3=0
+ DI4=0
+[/TERRAIN]
+[IMPROVEMENT]0
+ ID=Police
+ Caption=警局
+ Description0=警局：每回合回復治安 +10%
+ Description1=　　　暴動時可減少 50% 影響
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=25
+ Icon=0
+ Unique=0
+ Value0=10
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]1
+ ID=Court
+ Caption=法院
+ Description0=法院：治安上限增加 20%，治安下降速度減半，腐敗度 -2%
+ Description1=　　　被傾銷成本增加 50%，暴動時可減半影響，效果可與警局疊加
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=100
+ Icon=1
+ Unique=1
+ Value0=20
+ Value1=2
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]2
+ ID=InfSchool
+ Caption=軍校
+ Description0=軍校：直接徵召步兵，全步兵戰力 +1%
+ Description1=　　　每回合回復每個步兵和民兵部隊數量 3
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=100
+ Icon=2
+ Unique=1
+ Value0=0
+ Value1=3
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]3
+ ID=CavSchool
+ Caption=騎兵學校
+ Description0=騎兵學校：可直接徵召騎兵，在有「馬匹」的據點才能建設
+ Description1=　　　　　每回合回復每個騎兵部隊數量 6，全騎兵戰力 +3%
+ UpgradeFrom=-1
+ Resource=2
+ Basic_Cost=200
+ Icon=3
+ Unique=1
+ Value0=0
+ Value1=6
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]4
+ ID=ArtSchool
+ Caption=兵工廠
+ Description0=兵工廠：可直接徵召砲兵，在有「都市」特性的據點才能建設
+ Description1=　　　　每回合回復每個砲兵部隊數量 3,，全砲兵戰力 +3%
+ UpgradeFrom=8
+ Resource=5
+ Basic_Cost=400
+ Icon=4
+ Unique=1
+ Value0=0
+ Value1=3
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]5
+ ID=ArmSchool
+ Caption=裝甲兵學校
+ Description0=裝甲兵學校：可直接徵召裝甲兵，在有「都市」特性的據點才能建設
+ Description1=　　　　　　每回合回復每個機械部隊數量 3，全機械部隊戰力 +3%
+ UpgradeFrom=8
+ Resource=5
+ Basic_Cost=800
+ Icon=5
+ Unique=1
+ Value0=0
+ Value1=3
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]6
+ ID=Industry1
+ Caption=工廠(一)
+ Description0=一級工廠：工業力 +1，可升級為二級工廠
+ Description1=　　　　　補給 +1，每回合補充 1 步兵、1/2 砲兵、1/3 裝甲兵
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=50
+ Icon=6
+ Unique=0
+ Value0=1
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]7
+ ID=Industry2
+ Caption=工廠(二)
+ Description0=二級工廠：工業力 +2，可升級為三級工廠
+ Description1=　　　　　補給 +2，每回合補充 2 步兵、1 砲兵、2/3 裝甲兵
+ UpgradeFrom=6
+ Resource=-1
+ Basic_Cost=100
+ Icon=7
+ Unique=0
+ Value0=2
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]8
+ ID=Industry3
+ Caption=工廠(三)
+ Description0=三級工廠：工業力 +3，可升級為兵工廠及裝甲兵學校
+ Description1=　　　　　補給 +3，每回合補充 3 步兵、1.5 砲兵、1 裝甲兵
+ UpgradeFrom=7
+ Resource=-1
+ Basic_Cost=200
+ Icon=8
+ Unique=0
+ Value0=3
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]9
+ ID=Defense
+ Caption=防禦工事
+ Description0=防禦工事：可抵擋一次攻擊
+ Description1=　　　　　在防守戰中被擊敗後會消失
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=50
+ Icon=9
+ Unique=1
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]10
+ ID=Newspaper
+ Caption=報社
+ Description0=報社：傳媒力 +1
+ Description1=　　　暴動攻防加成，全國治安 +0.5%，每回合補充 1民兵
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=25
+ Icon=10
+ Unique=0
+ Value0=1
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]11
+ ID=Broadcast
+ Caption=電臺
+ Description0=電臺：傳媒力 +2
+ Description1=　　　暴動攻防加成，全國治安 +1%, 每回合民兵補充 +2
+ UpgradeFrom=10
+ Resource=-1
+ Basic_Cost=100
+ Icon=11
+ Unique=0
+ Value0=2
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]12
+ ID=Mine
+ Caption=礦場
+ Description0=礦產：補給 +2，收入+3 ，工業值+1
+ Description1=　　　只能在有「礦產」的據點修建
+ UpgradeFrom=-1
+ Resource=3
+ Basic_Cost=25
+ Icon=12
+ Unique=0
+ Value0=2
+ Value1=3
+ Value2=1
+[/IMPROVEMENT]
+[IMPROVEMENT]13
+ ID=Field
+ Caption=鴉片田
+ Description0=鴉片田：收入+8，政治力 -1
+ Description1=　　　　在「地下經濟」下額外收入 +2，補給 +1
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=0
+ Icon=13
+ Unique=0
+ Value0=0
+ Value1=8
+ Value2=-1
+[/IMPROVEMENT]
+[IMPROVEMENT]14
+ ID=Government
+ Caption=政府機構
+ Description0=政府機構：政治力 +1，可以徵召內閣成員
+ Description1=　　　　　在非德膜克拉西政體下改革力 -1
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=150
+ Icon=14
+ Unique=1
+ Value0=1
+ Value1=-1
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]15
+ ID=University
+ Caption=大學
+ Description0=大學：改革力 +3，腐敗度 -1%
+ Description1=　　　每回合改革力 - 腐敗度將帶來文化值
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=150
+ Icon=15
+ Unique=1
+ Value0=3
+ Value1=1
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]16
+ ID=Road
+ Caption=公路
+ Description0=公路：開發與投資效果 +1，據點運輸回合減半
+ Description1=　　　鄰接據點投資效果 +1
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=40
+ Icon=16
+ Unique=1
+ Value0=1
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]17
+ ID=Custom
+ Caption=厘金局
+ Description0=厘金局：收入 +8
+ Description1=　　　　據點將無法投資
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=10
+ Icon=17
+ Unique=1
+ Value0=0
+ Value1=8
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]18
+ ID=Dojo
+ Caption=武館
+ Description0=
+ Description1=
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=-1
+ Icon=0
+ Unique=0
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]19
+ ID=Academy
+ Caption=學堂
+ Description0=
+ Description1=
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=-1
+ Icon=0
+ Unique=0
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]20
+ ID=Library
+ Caption=圖書館
+ Description0=
+ Description1=
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=-1
+ Icon=0
+ Unique=0
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]21
+ ID=MilitaryAcademy
+ Caption=軍校
+ Description0=
+ Description1=
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=-1
+ Icon=0
+ Unique=0
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[IMPROVEMENT]22
+ ID=Mafia
+ Caption=幫會
+ Description0=
+ Description1=
+ UpgradeFrom=-1
+ Resource=-1
+ Basic_Cost=-1
+ Icon=0
+ Unique=0
+ Value0=0
+ Value1=0
+ Value2=0
+[/IMPROVEMENT]
+[POLITICAL]0
+ ID=Xenophobic
+ Name=地方政治
+ PoliticalType=0
+ HQSlot=6
+ Slot=1
+ Cost=15
+ Description0=以單一據點作為中心的政體
+ Description1=司令部可設六個建築，將領在故鄉作戰不會有減成
+ Description2=據點可設一個建築，改革行動力消費-１
+ Description3=司令部每個建築物+１政治力， 治安+４％
+ Feat=HQBuildingPP +1
+ Feat=HQBuildingPolice +4
+ Feat=HomeImmuneNeg =1
+ Feat=ReformTry -1
+ Feat=Isolationism +2
+[/POLITICAL]
+[POLITICAL]1
+ ID=Warlord
+ Name=軍閥
+ PoliticalType=0
+ HQSlot=3
+ Slot=3
+ Cost=30
+ Description0=平均型政體, 最低行動力值為 4
+ Description1=所有據點都可以建三個建築, 每回合免行動力訓練部隊一次
+ Description2=每擁有四個部隊 +1 政治力
+ Description3=[軍閥是這遊戲主要被討伐和收編的對象]
+ Feat=MinAP =4
+ Feat=PPPerUnit =4
+ Feat=China =1
+ Feat=TrainTry -1
+ Feat=BorderConflict +1
+[/POLITICAL]
+[POLITICAL]2
+ ID=Empire
+ Name=帝國
+ PoliticalType=0
+ HQSlot=5
+ Slot=2
+ Cost=50
+ Description0=以權威控制大地域的帝國或中央集權政體
+ Description1=司令部可設五個建築, 據點可設二個建築
+ Description2=每點政治值 點可增加全體據點治安 1 點
+ Description3=[不會屈服於收編]
+ Feat=PPPolice =100
+ Feat=NoSue =1
+ Feat=Charm -2
+ Feat=BorderConflict +1
+[/POLITICAL]
+[POLITICAL]3
+ ID=Democracy
+ Name=德膜克拉西
+ PoliticalType=0
+ HQSlot=4
+ Slot=4
+ Cost=100
+ Description0=由人民直接賦予權力的憲政政體
+ Description1=所有據點可設四個建築 [無法對友好度 0 以上國家宣戰]
+ Description2=每個非敵對的列強 +1 政治力, 每個同盟 +1 政治力
+ Description3=抵消政府機構的負面作用, 大學和法院額外 -1% 腐敗度
+ Feat=NoFriendWar =1
+ Feat=AllyPP +1
+ Feat=ForeignPP +1
+ Feat=GovNeg =1
+ Feat=AntiCorruption +1
+ Feat=Charm +4
+[/POLITICAL]
+[POLITICAL]4
+ ID=Foreigner
+ Name=列強
+ PoliticalType=0
+ HQSlot=3
+ Slot=3
+ Cost=300
+ Description0=為了得到經濟利益而存在的外來勢力，部隊消耗補給 +2SP。
+ Description1=所有據點可設三個建築，每個據點資源可 +1 政治力。
+ Description2=收編勢力需要的政治值雙倍，外交消費行動力 -1。戰爭行動力消費 +１。
+ Description3=不能新編多於據點數的部隊，但最少可以有6個部隊。
+ Feat=Foreign =1
+ Feat=SuePPCost *200
+ Feat=SPCost +2
+ Feat=WarTry +1
+ Feat=NoDead =1
+ Feat=DipTry -1
+ Feat=Isolationism +4
+ Feat=ResourcePP =1
+ Feat=CityToMaxUnit =25
+[/POLITICAL]
+[POLITICAL]5
+ ID=Guerrlia
+ Name=遊擊隊
+ PoliticalType=0
+ HQSlot=2
+ Slot=2
+ Cost=15
+ Description0=無固定根據地的政體, 能夠隨時遷移根據地. 
+ Description1=所有據點只可設兩個建築, 腐敗對軍隊戰鬥力的影響減半
+ Description2=民兵維護補給 -1SP
+ Description3=無據點亦不會滅亡
+ Feat=MoveHQCost =1
+ Feat=FreeMove =1
+ Feat=IrregularSPCost -1
+ Feat=NoDead =1
+ Feat=Charm -1
+ Feat=CorruptionMul *50
+[/POLITICAL]
+[POLITICAL]6
+ ID=Traditional
+ Name=傳統經濟
+ PoliticalType=1
+ HQSlot=0
+ Slot=0
+ Cost=10
+ Description0=重視傳統農業社會的自然經濟。
+ Description1=每一個空白設施格 +2 收入與補給
+ Description2=
+ Description3=
+ Feat=EmptyTP +2
+ Feat=EmptySP +2
+[/POLITICAL]
+[POLITICAL]7
+ ID=FreeMarket
+ Name=市場經濟
+ PoliticalType=1
+ HQSlot=0
+ Slot=0
+ Cost=30
+ Description0=放任民間商人發展, 鼓勵自由貿易的經濟. 
+ Description1=投資時額外 +1 貿易量
+ Description2=[補給不足時, 可以用 5 資金換取 1 補給]
+ Description3=
+ Feat=InvTP +1
+ Feat=TPSP =5
+[/POLITICAL]
+[POLITICAL]8
+ ID=Planned
+ Name=計劃經濟
+ PoliticalType=1
+ HQSlot=0
+ Slot=1
+ Cost=20
+ Description0=以公共建設為主, 由政府計劃集中資源建立的經濟. 
+ Description1=所有據點額外多一格建築物
+ Description2=建築物價格減半
+ Description3=每1個據點腐敗度會額外+1
+ Feat=BuildingCost *50
+ Feat=ExtraSlot +1
+ Feat=CityCor +1
+[/POLITICAL]
+[POLITICAL]9
+ ID=WarTime
+ Name=地下經濟
+ PoliticalType=1
+ HQSlot=0
+ Slot=0
+ Cost=40
+ Description0=以種植鴉片維持的經濟, 軍隊的利益和鴉片農聯合
+ Description1=具有不受治安影響的特質
+ Description2=鴉片田能提供 +2 貿易值, +1 補給值
+ Description3=
+ Feat=FieldTP +2
+ Feat=FieldSP +1
+ Feat=Charm -2
+[/POLITICAL]
+[POLITICAL]10
+ ID=Nationalism
+ Name=國族主義
+ PoliticalType=2
+ HQSlot=0
+ Slot=0
+ Cost=20
+ Description0=自體國族沙文主義思想
+ Description1=戰爭行動消費 -1， 無法被收編
+ Description2=治安70%以上的據點在防守戰時有戰力加成（最高20%）
+ Description3=每個憲兵全據點治安+1
+ Feat=WarTry -1
+ Feat=NoSue =1
+ Feat=PoliceDefense =20
+ Feat=BorderConflict +1
+ Feat=PolicePlus +1
+[/POLITICAL]
+[POLITICAL]11
+ ID=Socialism
+ Name=社會主義
+ PoliticalType=2
+ HQSlot=0
+ Slot=0
+ Cost=30
+ Description0=以建立公共財產為中心, 達致平等均富的社會為目標
+ Description1=開發行動消費 -1, 所有傳媒得到額外 +1 影響力
+ Description2=軍隊在進攻時, 若進攻地點治安低於 70% 的能得到戰力加成
+ Description3=佔領時據點時不影響治安[抵消國族主義的治安影響]
+ Feat=SPTry -1
+ Feat=MediaPlus +1
+ Feat=RiotAttack =70
+ Feat=Preacher +2
+ Feat=Emancipation =1
+[/POLITICAL]
+[POLITICAL]12
+ ID=Capitalism
+ Name=資本主義
+ PoliticalType=2
+ HQSlot=0
+ Slot=0
+ Cost=30
+ Description0=強調私有財權，鼓勵追求個人財富的社會。
+ Description1=部隊的補給消耗＋２。
+ Description2=有「公路」或「港口」且治安100%的據點每月自動投資一次。
+ Description3=在「市場經濟」下每月治安100%的據點自動投資一次。自動投資最多+３。
+ Feat=AutoInv =100
+ Feat=SPCost +2
+ Feat=Preacher +2
+[/POLITICAL]
+[POLITICAL]13
+ ID=Religion
+ Name=傳統價值
+ PoliticalType=2
+ HQSlot=0
+ Slot=0
+ Cost=50
+ Description0=保持傳統的社會架構, 包括封建, 遊牧等中世紀制度. 
+ Description1=對暴動免疫, 每個治安達 100% 或以上的城市能提供 +1 政治力
+ Description2=在首都的治安上限 +20%, 將領在故鄉作戰有15%加成
+ Description3=[每個首都以外的建築都會增加 1% 腐敗度]
+ Feat=RiotEffect *100
+ Feat=PolicePP =100
+ Feat=HQPolice +20
+ Feat=Localism +15
+ Feat=NonHQBuildingCorruption +1
+ Feat=Isolationism +1
+[/POLITICAL]
+[POLITICAL]14
+ ID=Defensive
+ Name=防禦性軍隊
+ PoliticalType=3
+ HQSlot=0
+ Slot=0
+ Cost=20
+ Description0=以自衛為目的組織的軍隊
+ Description1=防守戰時自動回復1士氣
+ Description2=防守戰戰敗後, 
+ Description3=會自動回復出擊部隊 士氣和50% 兵力, 機械和砲兵類除外
+ Feat=DefenseMorale +1
+ Feat=LoseRecoverHP *50
+[/POLITICAL]
+[POLITICAL]15
+ ID=Banzai
+ Name=人海戰術
+ PoliticalType=3
+ HQSlot=0
+ Slot=0
+ Cost=40
+ Description0=不怕傷亡, 透過不斷補充和大兵力去作戰的戰術
+ Description1=進攻時, 民兵或步兵部隊在被擊潰後, 只要有足夠資金和補給就會復活
+ Description2=復活部隊會縮編或失去一個等級, 但最低降至零
+ Description3=
+ Feat=Revive =1
+[/POLITICAL]
+[POLITICAL]16
+ ID=FireWave
+ Name=火力壓制
+ PoliticalType=3
+ HQSlot=0
+ Slot=0
+ Cost=80
+ Description0=部隊射擊時有機會減低對方的士氣值, 每點 BS 10%
+ Description1=當部隊使用最後一點士氣進行射擊時, 不會消耗最後一點士氣
+ Description2=每次射擊都要消耗相當於「射擊值」的資金
+ Description3=
+ Feat=FireSuppress =1
+ Feat=FireSuppressCost +2
+[/POLITICAL]
+[POLITICAL]17
+ ID=NavalPower
+ Name=海權
+ PoliticalType=3
+ HQSlot=0
+ Slot=0
+ Cost=200
+ Description0=可跨海進攻港口，在港口作戰時有加成
+ Description1=維持費與加成根據所擁有/友好/同盟的港口和石油數量計算
+ Description2=雙方都是海權時，只能進攻對方海權值最高的港口
+ Description3=[同盟的港口及石油可增加登陸戰時的戰鬥力, 最高 +90%]
+ Feat=NavyEnabled =1
+[/POLITICAL]
+[POLITICAL]18
+ ID=Domination
+ Name=大東亞共榮圈
+ PoliticalType=4
+ HQSlot=0
+ Slot=0
+ Cost=100
+ Description0=勝利條件: 佔領全地圖
+ Description1=成功研發後免除宣戰的任何不良影響
+ Description2=研發大東亞共榮圈後可以免除一切宣戰限制
+ Description3=但會與周遭勢力關係急遽惡化
+ Feat=NoPeace =1
+ Feat=Warmaster =1
+ Feat=Charm -5
+ Feat=Overlord =1
+ Feat=CoProsperitySphere =1
+[/POLITICAL]
+[POLITICAL]19
+ ID=Fedralism
+ Name=聯省自治
+ PoliticalType=4
+ HQSlot=0
+ Slot=0
+ Cost=200
+ Description0=勝利條件: 政值佔軍閥政治值總數達 50% 或以上
+ Description1=每結交一個同盟能得到 +1 政治力
+ Description2=
+ Description3=
+ Feat=AllyPP +1
+[/POLITICAL]
+[POLITICAL]20
+ ID=China
+ Name=統一中國
+ PoliticalType=4
+ HQSlot=0
+ Slot=0
+ Cost=50
+ Description0=勝利條件: 收編或鏟除地圖上所有地方和軍閥勢力
+ Description1=每收編一個軍閥勢力能得到 +2 政治力
+ Description2=每收編一個地方勢力能得到 +2 政治力
+ Description3=
+ Feat=MasterPP +2
+ Feat=BorderConflict +1
+[/POLITICAL]
+[POLITICAL]21
+ ID=Monopoly
+ Name=獨佔市場
+ PoliticalType=4
+ HQSlot=0
+ Slot=0
+ Cost=200
+ Description0=勝利條件: 擁有全地圖 TP 值的 50%
+ Description1=惡性傾銷的成本減半。
+ Description2=貿易值對治安的影響減半。
+ Description3=
+ Feat=SalesCost *50
+ Feat=TPPoliceMul *50
+[/POLITICAL]
+[POLITICAL]22
+ ID=Independance
+ Name=獨立建國
+ PoliticalType=4
+ HQSlot=0
+ Slot=0
+ Cost=300
+ Description0=建立一個被國際承認的獨立國家
+ Description1=避免被吞拼, 並發展出獨特的文化和認同感
+ Description2=司令部每個建築物能產生 +1 政治力 +1 改革力
+ Description3=勝利條件：文化值達 1000 點
+ Feat=HQBuildingPP +1
+ Feat=HQBuildingReform +1
+[/POLITICAL]
+[POLITICAL]23
+ ID=Blitz
+ Name=機動作戰
+ PoliticalType=3
+ HQSlot=0
+ Slot=0
+ Cost=120
+ Description0=具有連續攻擊的能力的作戰方式。
+ Description1=戰爭行動消費 +1，進攻部隊自動恢復 1士氣。
+ Description2=每月同部隊不限進攻次數。
+ Description3=不論等級，整補都會降級。
+ Feat=WarTry +1
+ Feat=Blitz =1
+ Feat=SupplyDegrade =1
+[/POLITICAL]
+[EQUIPMENT]0
+ Tag=WarBanner
+ Name=政治委員
+ Cost=15
+ Upkeep=0
+ Description=提升部隊的凝聚力,，士氣 +1、機動 -1
+ Skill0=Morale+1
+ SkillLv0=1
+ Skill1=Slow
+ SkillLv1=1
+[/EQUIPMENT]
+[EQUIPMENT]1
+ Tag=MeleeWeapon
+ Name=大刀
+ Cost=10
+ Upkeep=0
+ Description=衝鋒雙方傷害 +50%，當雙方都持有大刀時 +125%
+ Skill0=Berserker
+ SkillLv0=2
+[/EQUIPMENT]
+[EQUIPMENT]2
+ Tag=MachineGun
+ Name=機槍
+ Cost=50
+ Upkeep=1
+ Description=士氣最大值 -1，面對非「機械類」部隊衝鋒時，消耗1士氣令傷害減半。占用1工業值
+ Skill0=Shield
+ SkillLv0=1
+[/EQUIPMENT]
+[EQUIPMENT]3
+ Tag=SupplyTrunk
+ Name=補給卡車
+ Cost=25
+ Upkeep=0
+ Description=進攻時增加 4 回合的作戰回數
+ Skill0=Attacker
+ SkillLv0=1
+[/EQUIPMENT]
+[EQUIPMENT]4
+ Tag=Nurse
+ Name=看護兵
+ Cost=20
+ Upkeep=0
+ Description=待機時恢復兵力，上限為 50%
+ Skill0=Healer
+ SkillLv0=5
+[/EQUIPMENT]
+[EQUIPMENT]5
+ Tag=Scout
+ Name=偵察兵
+ Cost=40
+ Upkeep=0
+ Description=機動值 +1
+ Skill0=I+1
+ SkillLv0=1
+ Skill1=
+ SkillLv1=-1
+[/EQUIPMENT]
+[EQUIPMENT]6
+ Tag=Sapper
+ Name=工兵
+ Cost=30
+ Upkeep=0
+ Description=待機時作戰減成減半
+ Skill0=Sapper
+ SkillLv0=2
+[/EQUIPMENT]
+[EQUIPMENT]7
+ Tag=Police
+ Name=憲兵
+ Cost=20
+ Upkeep=0
+ Description=減半腐敗度對戰力影響
+ Skill0=Discipline
+ SkillLv0=2
+ Skill1=
+ SkillLv1=-1
+[/EQUIPMENT]
+[EQUIPMENT]8
+ Tag=FlameThrower
+ Name=手槍
+ Cost=50
+ Upkeep=0
+ Description=衝鋒值 +1
+ Skill0=WS+1
+ SkillLv0=1
+[/EQUIPMENT]
+[EQUIPMENT]9
+ Tag=EQUIPMENT09
+ Name=擲彈筒
+ Cost=50
+ Upkeep=1
+ Description=火力+1。占用1工業值
+ Skill0=BS+1
+ SkillLv0=1
+[/EQUIPMENT]
+[EQUIPMENT]10
+ Tag=EQUIPMENT10
+ Name=反坦克炮
+ Cost=50
+ Upkeep=1
+ Description=射擊時能夠減低對方的戰力，機動 -1。占用1工業值
+ Skill0=Shell
+ SkillLv0=1
+ Skill1=Slow
+ SkillLv1=1
+[/EQUIPMENT]
+[UNITTYPE]0
+ Name=非正規部隊
+ ID=Irregular
+ Short=民
+[/UNITTYPE]
+[UNITTYPE]1
+ Name=步兵類
+ ID=Infactry
+ Short=步
+ Feat=SupplyHalfMorale = 1
+ Feat=Escorting = 1
+[/UNITTYPE]
+[UNITTYPE]2
+ Name=騎兵類
+ ID=Cavalry
+ Short=騎
+ Feat=FinalPower = 1
+[/UNITTYPE]
+[UNITTYPE]3
+ Name=砲兵類
+ ID=Artillery
+ Short=砲
+ Feat=SuppressShoot = 1
+[/UNITTYPE]
+[UNITTYPE]4
+ Name=機械類
+ ID=Armor
+ Short=裝
+ Feat=CoverAssault = 1
+ Feat=DefenseBreak = 1
+[/UNITTYPE]
+[UNITTYPE]5
+ Name=鬼神類
+ ID=Supernatural
+ Short=鬼
+[/UNITTYPE]
+[UNITTYPE]6
+ Name=不死類
+ ID=Undead
+ Short=靈
+[/UNITTYPE]
+[POWER]0
+ Name=黃埔系
+ Description=以校長蔣中正為中心，黃埔軍校出身人員為主的派系。
+[/POWER]
+[POWER]1
+ Name=共產黨
+ Description=陳獨秀所創建，國際共產黨在中國的支部。
+[/POWER]
+[POWER]2
+ Name=直系
+ Description=以河北地區出身的軍人為主的派系。
+[/POWER]
+[POWER]3
+ Name=奉系
+ Description=以東北地區出身的軍人為主的派系。
+[/POWER]
+[POWER]4
+ Name=皖系
+ Description=以安徽地區出身的軍人為主的派系。
+[/POWER]
+[POWER]5
+ Name=晉系
+ Description=以山西地區出身的軍人為主的派系。
+[/POWER]
+[POWER]6
+ Name=桂系
+ Description=以廣西地區出身的軍人為主的派系。
+[/POWER]
+[POWER]7
+ Name=滇系
+ Description=以雲南地區出身的軍人為主的派系。
+[/POWER]
+[POWER]8
+ Name=川系
+ Description=以四川地區出身的軍人為主的派系。
+[/POWER]
+[POWER]9
+ Name=粵系
+ Description=以廣東地區出身的軍人為主的派系。
+[/POWER]
+[POWER]10
+ Name=湘系
+ Description=以湖南地區出身的軍人為主的派系。
+[/POWER]
+[POWER]11
+ Name=黔系
+ Description=以貴州地區出身的軍人為主的派系。
+[/POWER]
+[POWER]12
+ Name=西北系
+ Description=以西北地區出身的軍人為主的派系。
+[/POWER]
+[POWER]13
+ Name=回族
+ Description=以回族為主的派系。
+[/POWER]
+[POWER]14
+ Name=維吾爾
+ Description=以維吾爾人為主的派系。
+[/POWER]
+[POWER]15
+ Name=西藏
+ Description=以藏族為主的派系。
+[/POWER]
+[POWER]16
+ Name=日本
+ Description=
+[/POWER]
+[POWER]17
+ Name=泰族
+ Description=
+[/POWER]
+[POWER]18
+ Name=英國
+ Description=
+[/POWER]
+[POWER]19
+ Name=法國
+ Description=
+[/POWER]
+[POWER]20
+ Name=蘇聯
+ Description=
+[/POWER]
+[POWER]21
+ Name=美國
+ Description=
+[/POWER]
+[POWER]22
+ Name=閩系
+ Description=以福建地區出身的軍人為主的派系。
+[/POWER]
+[POWER]23
+ Name=豫系
+ Description=以河南地區出身的軍人為主的派系。
+[/POWER]
+[POWER]24
+ Name=鄂系
+ Description=以湖北地區出身的軍人為主的派系。
+[/POWER]
+[POWER]25
+ Name=贛系
+ Description=以江西地區出身的軍人為主的派系。
+[/POWER]
+[POWER]26
+ Name=浙系
+ Description=以浙江地區出身的軍人為主的派系。
+[/POWER]
+[POWER]27
+ Name=魯系
+ Description=以山東地區出身的軍人為主的派系。
+[/POWER]
+[POWER]28
+ Name=韓國
+ Description=
+[/POWER]
+[POWER]29
+ Name=滿洲
+ Description=
+[/POWER]
+[POWER]30
+ Name=蒙古
+ Description=
+[/POWER]
+[POWER]31
+ Name=政學系
+ Description=
+[/POWER]
+[POWER]32
+ Name=哈薩克
+ Description=
+[/POWER]
+[POWER]33
+ Name=客家
+ Description=
+[/POWER]
+[POWER]34
+ Name=越南
+ Description=
+[/POWER]
+[POWER]35
+ Name=印度
+ Description=
+[/POWER]
+[POWER]36
+ Name=高棉
+ Description=
+[/POWER]
+[CITY_RESOURCE]0
+ DisplayName=港口
+ Description=投資效果 +1，資源值 +1
+[/CITY_RESOURCE]
+[CITY_RESOURCE]1
+ DisplayName=外商
+ Description=外商：傾銷成本及暴動效果減半，補給 +3，資源值 +1
+[/CITY_RESOURCE]
+[CITY_RESOURCE]2
+ DisplayName=馬匹
+ Description=馬匹：可建設騎兵學校，資源值 +1
+[/CITY_RESOURCE]
+[CITY_RESOURCE]3
+ DisplayName=礦產
+ Description=礦產：可建設礦場，資源值 +1
+[/CITY_RESOURCE]
+[CITY_RESOURCE]4
+ DisplayName=石油
+ Description=石油：提升海權效果，資源值 +4
+[/CITY_RESOURCE]
+[CITY_RESOURCE]5
+ DisplayName=都市
+ Description=都市：據點設施格 +1，資源值 +1
+[/CITY_RESOURCE]
+[ENDING_DESCRIPTION]0
+ Description=@CountryName@ 將整個東亞統一
+ Description=將所有的敵人摧毀, 驅逐或者屈服.
+ Description=不僅重建了震驚世界的新朝貢體系,
+ Description=也完成了自成吉思汗以來最龐大的亞洲陸地帝國.
+ Description=#0這個新國家就是#4 @EmpireName@ #0
+[/ENDING_DESCRIPTION]
+[ENDING_DESCRIPTION]1
+ Description=在歷年的戰亂當中, 大家已經厭倦了戰爭. 
+ Description=終於在談判桌下, 達成了最後的和解. 
+ Description=在 @CountryName@ 主導下, 完成了新體制. 
+ Description=對內互相尊重, 對外一致抗敵. 
+ Description=#0以#4中華聯邦#0之名, 共同進退.
+[/ENDING_DESCRIPTION]
+[ENDING_DESCRIPTION]2
+ Description=自清帝國崩潰之後, 陷於分裂的中華大地, 
+ Description=以及其所遺留下來各方勢力, 
+ Description=終於被 @CountryName@ 所統一, 
+ Description=滿清遺下的武裝力量已經屈服, 歷史亦迎向另一時期. 
+ Description=#0歷史上稱為#4 @ChinaName@ #0
+[/ENDING_DESCRIPTION]
+[ENDING_DESCRIPTION]3
+ Description=在戰爭的背後, 到底還是經濟的角力. 
+ Description=在這區域戰爭所需要的武器, 燃料, 糧食, 運輸, 工業, 
+ Description=在不知不覺間都被 @CountryName@ 所掌控. 
+ Description=整個東亞市場, 已經是其囊中之物. 
+ Description=#4 @CountryName@ 的掌握下, 進入了經濟繁榮時期#0
+[/ENDING_DESCRIPTION]
+[ENDING_DESCRIPTION]4
+ Description=憑著對文化的發展和身份認同的培養
+ Description=@CountryName@ 和其人民已為一體
+ Description=在世界大戰後的紛亂世代, 聯合國成立.
+ Description=@CountryName@ 因此得到了一個機會.
+ Description=以#4 @NationName@ #0之名成功晉身成為聯合國的成員
+[/ENDING_DESCRIPTION]
+[STRING]0
+ 3=火力
+ 18=部隊經驗
+ 28=點補給
+ 29=徵兵: 補給不足
+ 32=強制徵收
+ 34=徵用: 本回合補給 +
+ 35= 點, 但減半當地補給能力
+ 39=建造設施
+ 41=建設: 建造新的設施
+ 42=建設: 設施已滿
+ 44=拆除設施
+ 46=拆除: 拆除設施，回收一半造價資源
+ 47=拆除: 無可拆除設施
+ 51=投資: 貿易額 +
+ 53=整頓政務
+ 57=開發產業
+ 59=開發: 補給能力 +
+ 105=結盟: 可使用對方攻擊路線
+ 122=收編: 將此勢力收編為附庸
+ 129=煽動暴動
+ 132=暴動: 對暴動免疫
+ 137=傾銷: 已經蕭條到不必傾銷了...
+ 189=使用行動力引發事件
+[/STRING]
