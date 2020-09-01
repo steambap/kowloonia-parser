@@ -1,15 +1,13 @@
 import fs from "fs";
 import engineConfig from "../src/engine-config";
-import { decode } from "../src/main";
 
-describe("engine config", () => {
-	test("decode config", () => {
-		const file = fs.readFileSync("test/config.txt", "utf8");
-		const result = decode(file);
-		const configSec = result[0];
-		const conf = engineConfig.decode(configSec);
+test("parse a config", () => {
+	const file = fs.readFileSync("test/config.txt", "utf8");
+	const conf = engineConfig.load(file);
 
-		expect(conf.drama).toBeTruthy();
-		expect(conf.campaign).toEqual(0);
-	});
+	expect(conf.sound).toEqual(1);
+	expect(conf.autoSave).toEqual(true);
+	expect(conf.host).toEqual("kowloonia.com");
+	expect(conf.formLeft).toEqual(8);
+	expect(conf.formTop).toEqual(9);
 });

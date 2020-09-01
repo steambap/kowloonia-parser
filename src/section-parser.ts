@@ -1,8 +1,4 @@
-export type Section = {
-	name: string;
-	order: number;
-	lines: string[];
-};
+import { Section } from "./definition";
 
 class Parser {
 	lines: string[];
@@ -65,7 +61,7 @@ class Parser {
 	}
 }
 
-export function parseSection(input:string) {
+export function parseSection(input: string) {
 	return new Parser(input).parse();
 }
 
