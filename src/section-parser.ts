@@ -65,4 +65,8 @@ class Parser {
 	}
 }
 
+export function parseSection(input:string) {
+	return new Parser(input).parse();
+}
+
 export default Parser;
