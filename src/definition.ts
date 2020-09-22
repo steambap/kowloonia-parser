@@ -39,7 +39,13 @@ export interface unitClass {
 	levelCost: number;
 	unitSkill: string;
 	unitSkillLevel: number;
-	
+	unitType: string;
+	morale: number;
+	special: number;
+	spCost: number;
+	upgrade1: number;
+	upgrade2: number;
+	upgrade3: number;
 }
 
 export interface GameSetup extends Record<string, any> {
