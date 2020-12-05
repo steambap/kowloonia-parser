@@ -26,10 +26,10 @@
   "homepage": "https://github.com/steambap/kowloonia-parser#readme",
   "devDependencies": {
     "@zeit/ncc": "^0.22.3",
-    "jest": "^26.4.0",
-    "jest-circus": "^26.4.0",
-    "ts-jest": "^26.2.0",
-    "typescript": "^4.0.2"
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
   },
   "dependencies": {
     "@types/lodash.camelcase": "^4.3.6",

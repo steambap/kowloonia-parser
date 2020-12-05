@@ -17,7 +17,7 @@ export interface EngineConfig extends Record<string, any> {
 	formLeft: number;
 	formTop: number;
 	formMaximum: number;
-};
+}
 
 export interface unitClass {
 	name: string;
@@ -47,6 +47,8 @@ export interface unitClass {
 	upgrade2: number;
 	upgrade3: number;
 }
+
+export const BASE_YEAR = 1911;
 
 export interface GameSetup extends Record<string, any> {
 	mapWidth: number;
