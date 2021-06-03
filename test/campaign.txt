@@ -1,0 +1,60 @@
+﻿[CAMPAIGN]0
+ Name=大時代的故事
+ SubTitle=民國十四年１月
+ Picture=北伐
+ BigPicture=bigpicture.PNG
+ DefaultFile=Default.txt
+ SetupFile=Setup.txt
+ DramaFile=drama.txt
+ PNGDir=png/
+ MusicDir=music/
+ SaveDir=save1/
+ Description0=民國建立已十四年，中國仍戰亂不息。北方，第二次直奉戰爭
+ Description1=因馮玉祥的倒戈以奉系大獲全勝告終，直系政府倒台，奉軍大
+ Description2=舉入關南下，勢力直逼長江流域，同時馮玉祥亦在蘇俄的援助
+ Description3=下掌握了西北一帶，雙方共推段祺瑞為中華民國臨時執政。
+ Description4=南方，孫中山的北伐行動因陳炯明叛變失敗，開始尋求與蘇俄
+ Description5=合作，改組國民黨並引中共加入，以蔣中正為校長建立黃埔軍
+ Description6=校與黨軍。此時孫中山赴北洋政府之邀，欲北上共商民國以來
+ Description7=南北長期對立的問題，卻在抵達北京後開始發病......
+[/CAMPAIGN]
+[CAMPAIGN]1
+ Name=盧溝曉月
+ SubTitle=民國二十五年１１月
+ Picture=盧溝曉月
+ BigPicture=bigpicture2.PNG
+ DefaultFile=Default2.txt
+ SetupFile=Setup2.txt
+ DramaFile=Drama2.txt
+ PNGDir=png/
+ MusicDir=music/
+ SaveDir=save2/
+ Description0=民國二十五年，中國正面臨艱難的挑戰。日本在九一八事變奪
+ Description1=取了東北，成立滿洲國為其傀儡國後又不斷進逼，中日在上海
+ Description2=、綏遠、寧夏、熱河接連發生軍事衝突。另一方面，以蔣中正
+ Description3=為首的國民政府雖在中原大戰中獲勝後重建了中央政府的權威
+ Description4=，致力於現代化國家建設，並收回了部分租界和治外法權與關
+ Description5=稅自主權。但仍不斷面臨來自各地軍閥的挑戰：閩變、中華蘇
+ Description6=維埃共和國、兩廣事變均為中央所一一平定。此時中共敗逃至
+ Description7=陝北遭三面圍攻，蔣中正決心親赴西安率中央軍進剿......
+[/CAMPAIGN]
+[CAMPAIGN]2
+ Name=海棠殘夢
+ SubTitle=民國三十五年６月
+ Picture=campaign3
+ BigPicture=bigpicture3.PNG
+ DefaultFile=Default3.txt
+ SetupFile=Setup3.txt
+ DramaFile=Drama3.txt
+ PNGDir=png/
+ MusicDir=music/
+ SaveDir=save3/
+ Description0=在與全面入侵的強敵日本歷經八年漫長且黑暗絕望之生死鬥後
+ Description1=，中國終於在抗戰中獲勝。中華民國不僅捍衛了民族生命與國
+ Description2=家獨立，恢復了過去遭日本侵略所失地的主權，且廢除了晚清
+ Description3=以來的諸多不平等條約，並成為聯合國創始四強之一。中國似
+ Description4=已一掃鴉片戰爭百餘年來的挫折與屈辱，即將邁向復興之道。
+ Description5=然而勝利的表象掩不住內戰的陰霾，抗戰中，中共已壯大為中
+ Description6=國最強大的割據勢力，並在蘇聯的支持下全力以武力和國民政
+ Description7=府爭奪對日的受降權。辛亥革命以來的亂世，即將結束......
+[/CAMPAIGN]
