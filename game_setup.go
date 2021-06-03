@@ -4,6 +4,8 @@ import (
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/siongui/gojianfan"
 )
 
 type GrandSetup struct {
@@ -34,7 +36,7 @@ type GrandSetup struct {
 	YearPrefix        string   `json:"yearPrefix"`
 	TP_Limit          int64    `json:"tpLimit"`
 	SP_Limit          int64    `json:"spLimit"`
-	REFORM_Limit      int64    `json:"reformLimit`
+	REFORM_Limit      int64    `json:"reformLimit"`
 	UNITLVCOVER_Limit int64    `json:"unitCoverLimit"`
 	MaxAP             int64    `json:"maxAP"`
 	NavyLength        int64    `json:"navyLength"`
@@ -87,7 +89,7 @@ func (g *GrandSetup) convert(section *Section) *GrandSetup {
 		case "UnitAid4":
 			g.UnitAid4, _ = strconv.ParseInt(v, 10, 64)
 		case "YearPrefix":
-			g.YearPrefix = v
+			g.YearPrefix = gojianfan.T2S(v)
 		case "TP_Limit":
 			g.TP_Limit, _ = strconv.ParseInt(v, 10, 64)
 		case "SP_Limit":
@@ -102,15 +104,15 @@ func (g *GrandSetup) convert(section *Section) *GrandSetup {
 			g.NavyLength, _ = strconv.ParseInt(v, 10, 64)
 		case "RandomName1":
 			if strings.TrimSpace(v) != "" {
-				g.RandomName1 = append(g.RandomName1, v)
+				g.RandomName1 = append(g.RandomName1, gojianfan.T2S(v))
 			}
 		case "RandomName2":
 			if strings.TrimSpace(v) != "" {
-				g.RandomName2 = append(g.RandomName2, v)
+				g.RandomName2 = append(g.RandomName2, gojianfan.T2S(v))
 			}
 		case "RandomName3":
 			if strings.TrimSpace(v) != "" {
-				g.RandomName3 = append(g.RandomName3, v)
+				g.RandomName3 = append(g.RandomName3, gojianfan.T2S(v))
 			}
 		}
 	}

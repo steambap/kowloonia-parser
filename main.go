@@ -18,6 +18,21 @@ func main() {
 	confData, _ := json.MarshalIndent(engineConf.convert(confSections[0]), "", "  ")
 	ioutil.WriteFile("./dist/config.json", confData, 0666)
 
+	campaignContent, err := ioutil.ReadFile("./test/campaign.txt")
+	if err != nil {
+		panic(err)
+	}
+	// remove BOM EF BB BF
+	campaignSections := ParseString(string(campaignContent[3:]))
+
+	campaignList := make([]*CampaignText, 0)
+	for _, section := range campaignSections {
+		campaignText := &CampaignText{}
+		campaignList = append(campaignList, campaignText.convert(section))
+	}
+	campaignData, _ := json.MarshalIndent(campaignList, "", "  ")
+	ioutil.WriteFile("./dist/campaign.json", campaignData, 0666)
+
 	setupContent, err := ioutil.ReadFile("./test/Setup.txt")
 	if err != nil {
 		panic(err)
