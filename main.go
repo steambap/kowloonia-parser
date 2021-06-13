@@ -46,6 +46,14 @@ func main() {
 			ioutil.WriteFile("./dist/grand.json", gData, 0666)
 		}
 	}
+
+	defaultContent, err := ioutil.ReadFile("./test/Default.txt")
+	if err != nil {
+		panic(err)
+	}
+	defaultSection := ParseString(string(defaultContent[3:]))
+	coreData, _ := json.MarshalIndent(readCore(defaultSection), "", "  ")
+	ioutil.WriteFile("./dist/core.json", coreData, 0666)
 }
 
 // for debug
